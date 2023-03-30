@@ -1,0 +1,22 @@
+name: UI-React-Backend-Template
+sdk:
+  language: js
+  options:
+    runtime: browser
+  path: ../frontend/src/backend-sdk/
+classes:
+  - path: user.js
+    type: jsonrpc
+    methods: []
+  - path: product.js
+    type: jsonrpc
+    methods: []
+  - path: order.js
+    type: jsonrpc
+    methods: []
+  - path: article.js
+    type: jsonrpc
+    methods: []
+  - path: task.js
+    type: jsonrpc
+    methods: []
