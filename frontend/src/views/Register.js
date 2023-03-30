@@ -216,7 +216,7 @@ function Register(props) {
                 type="submit"
                 onClick={e => handleSubmit(e)}
               >
-                Sumbit
+                Submit
                 {isSubmitting ? "..." : ""}
               </Button>
             </CardFooter>
