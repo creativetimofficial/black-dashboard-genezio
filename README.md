@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-<a href="https://www.creative-tim.com/genezio"><h2>The Ultimate Full-Stack Serverless Application</h2></a>
+<h2>The Ultimate Full-Stack Serverless Application</h2>
 </div>
 
 <div align="center">
@@ -21,9 +21,9 @@
 [![Follow](https://img.shields.io/twitter/url/https/twitter.com/geneziodev.svg?style=social&label=Follow%20%40CreativeTim)](https://twitter.com/intent/follow?screen_name=CreativeTim)
 [![Follow @geneziodev](https://img.shields.io/twitter/url/https/twitter.com/geneziodev.svg?style=social&label=Follow%20%40geneziodev)](https://twitter.com/intent/follow?screen_name=geneziodev)
 
-</div>
-
 ![Product Gif](./frontend/github-assets/black-dashboard-react.gif)
+
+</div>
 
 [Black Dashboard React](https://www.creative-tim.com/genezio) is a beautiful [Bootstrap 4](http://getbootstrap.com/), [Reactstrap](https://reactstrap.github.io/) and [React](https://reactjs.org/) ([create-react-app](https://github.com/facebook/create-react-app)) Admin Dashboard with a huge number of components built to fit together and look amazing. If you are looking for a tool to manage and visualize data about your business, this dashboard is the thing for you. It combines colors that are easy on the eye, spacious cards, beautiful typography, and graphics.
 Black Dashboard React comes packed with all plugins that you might need inside a project and documentation on how to get started. It is light and easy to use, and also very powerful.
@@ -42,7 +42,6 @@ We are very excited to share this dashboard with you and we look forward to hear
 ### Table of Contents
 
 - [Quick start](#quick-start)
-  - [How to deploy your full-stack app](#how-to-deploy-your-full-stack-app)
 - [Frontend template](#frontend-template)
   - [Versions](#versions)
   - [Demo](#demo)
@@ -87,7 +86,7 @@ cd ./backend
 5. **Deploy your code.** Use the command below to deploy the code using `genezio`:
 
 ```bash
-npm i && genezio deploy
+genezio deploy
 ```
 
 6. **Test your project.** You can use the test interface provided in the [genezio dashboard](https://app.genez.io/dashboard) to test your project.
@@ -102,13 +101,11 @@ npm i && genezio deploy
 
 ## Demo
 
-| Dashboard                                                                                                                      | User Profile                                                                                                                | Tables                                                                                                                    | Map                                                                                                                | Notification                                                                                                                                  |
-| ------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Start page](./frontend/github-assets/dashboard-page.png)](https://black-dashboard-genezio.creative-tim.com/admin/dashboard) | [![User profile page](./frontend/github-assets/user-page.png)](https:///black-dashboard-genezio.creative-tim.com/user-page) | [![Tables page ](./frontend/github-assets/table-page.png)](https://black-dashboard-genezio.creative-tim.com/admin/tables) | [![Maps Page](./frontend/github-assets/maps-page.png)](https://black-dashboard-genezio.creative-tim.com/admin/map) | [![Notification page](./frontend/github-assets/notifications-page.png)](https://black-dashboard-genezio.creative-tim.com/admin/notifications) |
+| Dashboard                                                                                                                      | User Profile                                                                                                                        | Tables                                                                                                                    | Map                                                                                                                | Notification                                                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![Start page](./frontend/github-assets/dashboard-page.png)](https://black-dashboard-genezio.creative-tim.com/admin/dashboard) | [![User profile page](./frontend/github-assets/user-page.png)](https://black-dashboard-genezio.creative-tim.com/admin/user-profile) | [![Tables page ](./frontend/github-assets/table-page.png)](https://black-dashboard-genezio.creative-tim.com/admin/tables) | [![Maps Page](./frontend/github-assets/maps-page.png)](https://black-dashboard-genezio.creative-tim.com/admin/map) | [![Notification page](./frontend/github-assets/notifications-page.png)](https://black-dashboard-genezio.creative-tim.com/admin/notifications) |
 
-<div>
-<a href="https://black-dashboard-genezio.creative-tim.com/auth/login"> <h2>Live Demo: You can try by yourself here</h2> </a>
-</div>
+## [Live Demo: You can try by yourself here](https://black-dashboard-genezio.creative-tim.com/auth/login)
 
 # Backend logic provided by genezio
 
@@ -375,11 +372,7 @@ Within the archive downloaded you'll find the following directories and files
 
 At present, we officially aim to support the last two versions of the following browsers:
 
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64">
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64">
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64">
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64">
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
+<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"><img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"><img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"><img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"><img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
 
 # Resources
 
@@ -419,6 +412,13 @@ Freebies: <https://www.creative-tim.com/products>
 
 Affiliate Program (earn money): <https://www.creative-tim.com/affiliates/new>
 
+Genezio Social Media:
+
+- LinkedIn <https://www.linkedin.com/company/genezio/>
+- Twitter: <https://twitter.com/geneziodev>
+- Instagram: <https://instagram.com/genezio.dev>
+- Facebook: <https://www.facebook.com/genezio.dev>
+
 CreativeTim Social Media:
 
 - Twitter: <https://twitter.com/CreativeTim>
@@ -426,10 +426,3 @@ CreativeTim Social Media:
 - Dribbble: <https://dribbble.com/creativetim>
 - Google+: <https://plus.google.com/+CreativetimPage>
 - Instagram: <https://instagram.com/creativetimofficial>
-
-Genezio Social Media:
-
-- LinkedIn <https://www.linkedin.com/company/genezio/>
-- Twitter: <https://twitter.com/geneziodev>
-- Instagram: <https://instagram.com/genezio.dev>
-- Facebook: <https://www.facebook.com/genezio.dev>
