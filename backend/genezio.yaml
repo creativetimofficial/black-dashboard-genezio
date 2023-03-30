@@ -4,6 +4,10 @@ sdk:
   options:
     runtime: browser
   path: ../frontend/src/backend-sdk/
+scripts:
+  preFrontendDeploy: "cd ../frontend && npm run build"
+frontend:
+  path: ./../frontend/build
 classes:
   - path: user.js
     type: jsonrpc
