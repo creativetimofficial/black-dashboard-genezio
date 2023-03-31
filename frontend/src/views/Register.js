@@ -94,7 +94,7 @@ function Register(props) {
         <Card>
           <Form>
             <CardHeader>
-              <CardTitle tag="h3">Login</CardTitle>
+              <CardTitle tag="h3">Register</CardTitle>
             </CardHeader>
             <CardBody>
               <Alert isOpen={error != null} color="danger">
