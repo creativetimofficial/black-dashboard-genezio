@@ -58,18 +58,6 @@ We are very excited to share this dashboard with you and we look forward to hear
 
 # Quick start
 
-Choose one of the quick start options below:
-
-- [Download from Github](https://github.com/creativetimofficial/black-dashboard-genezio/archive/refs/heads/main.zip).
-- [Download from Creative Tim](https://www.creative-tim.com/product/black-dashboard-genezio).
-- Clone this repository by executing the following command in a terminal:
-
-```
-git clone https://github.com/creativetimofficial/black-dashboard-genezio.git
-```
-
-## How to deploy your full-stack app
-
 1. **Create a `genezio` account** by going to https://app.genez.io.
 
 2. **Install `genezio` package.** Run the command below in your terminal:
