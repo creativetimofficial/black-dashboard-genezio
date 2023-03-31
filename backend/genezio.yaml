@@ -4,6 +4,11 @@ sdk:
   options:
     runtime: browser
   path: ../frontend/src/backend-sdk/
+scripts:
+  preBackendDeploy: "npm install --legacy-peer-deps"
+  preFrontendDeploy: "cd ../frontend && npm install --legacy-peer-deps && npm run build"
+frontend:
+  path: ./../frontend/build
 classes:
   - path: user.js
     type: jsonrpc
