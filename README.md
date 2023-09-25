@@ -86,7 +86,7 @@ cd ./backend
 5. **Deploy your code.** Use the command below to deploy the code using `genezio`:
 
 ```bash
-genezio deploy
+genezio deploy --env ./.env
 ```
 
 6. **Test your project.** You can use the test interface provided in the [genezio dashboard](https://app.genez.io/dashboard) to test your project.
