@@ -3,7 +3,9 @@ import OrderModel from "./models/orders";
 import { MONGO_DB_URI } from "./config";
 import reqAuth from "./middleware/reqAuth";
 import { numberOfPastMonths } from "./utils/constants";
+import {GenezioDeploy} from "@genezio/types";
 
+@GenezioDeploy()
 export class Order {
   constructor() {
     this.#connect(); 

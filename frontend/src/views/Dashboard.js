@@ -49,10 +49,7 @@ import {
   chartExample3,
   chartExample4,
 } from "variables/charts.js";
-import { Product } from "backend-sdk/product.sdk";
-import { Order } from "backend-sdk/order.sdk";
-import { Article } from "backend-sdk/article.sdk";
-import { Task } from "backend-sdk/task.sdk";
+import { Product, Order, Article, Task } from "@genezio-sdk/black-dashboard-genezio";
 import { LineChartView } from "backedComponents/LineChart/LineChartView";
 import { LineChart } from "backedComponents/LineChart/LineChart";
 import { BarChartView } from "backedComponents/BarChart/BarChartView";

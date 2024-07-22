@@ -42,6 +42,7 @@ We are very excited to share this dashboard with you and we look forward to hear
 ### Table of Contents
 
 - [Quick start](#quick-start)
+- [Deploy](#deploy)
 - [Frontend template](#frontend-template)
   - [Versions](#versions)
   - [Demo](#demo)
@@ -77,19 +78,19 @@ genezio login
 git clone https://github.com/creativetimofficial/black-dashboard-genezio
 ```
 
-4. **Navigate to the backend folder.** Copy the following command in your terminal:
+4. **Deploy your code.** Use the command below to deploy the code using `genezio`:
 
 ```bash
-cd ./backend
+genezio deploy --env backend/.env
 ```
 
-5. **Deploy your code.** Use the command below to deploy the code using `genezio`:
+5. **Test your project.** You can use the test interface provided in the [genezio dashboard](https://app.genez.io/dashboard) to test your project.
 
-```bash
-genezio deploy --env ./.env
-```
+## Deploy
 
-6. **Test your project.** You can use the test interface provided in the [genezio dashboard](https://app.genez.io/dashboard) to test your project.
+:rocket: You can deploy your own version of the template to Genezio with one click:
+
+[![Deploy to Genezio](https://raw.githubusercontent.com/Genez-io/graphics/main/svg/deploy-button.svg)](https://app.genez.io/start/deploy?repository=https://github.com/creativetimofficial/black-dashboard-genezio&utm_source=github&utm_medium=referral&utm_campaign=github-creativetim&utm_term=deploy-project&utm_content=button-head)
 
 # Frontend template
 
