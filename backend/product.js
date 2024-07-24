@@ -2,7 +2,9 @@ import mongoose, { set } from "mongoose";
 import ProductModel from "./models/products";
 import { MONGO_DB_URI } from "./config";
 import reqAuth from "./middleware/reqAuth";
+import {GenezioDeploy} from "@genezio/types";
 
+@GenezioDeploy()
 export class Product {
   constructor() {
     this.#connect()

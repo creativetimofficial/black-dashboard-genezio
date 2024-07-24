@@ -5,6 +5,7 @@
   "homepage": "https://demos.creative-tim.com/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "6.1.1",
+    "ajv": "^8.17.1",
     "bootstrap": "4.5.3",
     "chart.js": "3.4.1",
     "classnames": "2.3.1",
@@ -21,7 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && gulp licenses",
+    "build": "cross-env CI=false cross-env PUBLIC_URL=/ react-scripts build && gulp licenses",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
@@ -48,6 +49,7 @@
   },
   "devDependencies": {
     "gulp": "4.0.2",
-    "gulp-append-prepend": "1.0.9"
+    "gulp-append-prepend": "1.0.9",
+    "cross-env": "^7.0.3"
   }
 }

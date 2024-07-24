@@ -3,7 +3,9 @@ import ArticleModel from "./models/articles";
 import { MONGO_DB_URI } from "./config";
 import reqAuth from "./middleware/reqAuth";
 import { numberOfPastMonths } from "./utils/constants";
+import {GenezioDeploy} from "@genezio/types";
 
+@GenezioDeploy()
 export class Article {
   constructor() {
     this.#connect();

@@ -6,6 +6,9 @@ import ActiveSession from "./models/activeSession";
 import { MONGO_DB_URI, secret, smtpConf } from "./config";
 import reqAuth from "./middleware/reqAuth";
 import nodemailer from "nodemailer";
+import {GenezioDeploy} from "@genezio/types";
+
+@GenezioDeploy()
 export class User {
   constructor() {
     this.#connect();

@@ -3,7 +3,9 @@ import TaskModel from "./models/tasks";
 import { MONGO_DB_URI } from "./config";
 import reqAuth from "./middleware/reqAuth";
 import { listDate } from "./utils/constants";
+import {GenezioDeploy} from "@genezio/types";
 
+@GenezioDeploy()
 export class Task {
   constructor() {
     this.#connect();
